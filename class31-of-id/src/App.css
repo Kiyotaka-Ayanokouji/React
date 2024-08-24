@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: white;
+  background: linear-gradient(135deg, #5757aa11, #5757aa66, #1b1b32);
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+}
+
+/* Logo contenedor*/
+.logo-contenedor {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+}
+
+/* Logo*/
+.logo-epn {
+  width: 200px;
+  height: 200px;
+}
+
+.lista-tareas {
+  width: 600px;
+  min-height: 500px;
+  background-color: #fefeff;
+  padding: 25px;
+  margin-left: 300px;
+  border-radius: 26px;
+  align-content: center;
+}
+/* Estilo del titulo */
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
